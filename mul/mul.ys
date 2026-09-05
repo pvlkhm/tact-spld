@@ -1,0 +1,4 @@
+read_verilog mul.v
+hierarchy -check -top mul
+proc; opt; techmap; opt
+write_blif mul.blif
